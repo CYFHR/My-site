@@ -29,8 +29,8 @@ const Why = () => {
                 <div className='grid grid-cols-1 lg:grid-cols-2'>
 
                     {/* COLUMN-1 */}
-                    <div className="lg:-ml-64">
-                        <Image src="/assets/why/iPad.png" alt="iPad-image" width={4000} height={900} />
+                    <div className="lg:-ml-20">
+                        <Image src="/assets/why/block.png" alt="iPad-image" width={4000} height={900} />
                     </div>
 
                     {/* COLUMN-2 */}
