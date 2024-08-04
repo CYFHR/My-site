@@ -12,7 +12,8 @@ const Banner = () => {
                         Decentralize and Conquer
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-bluegray">
-                        Revolutionize your business with blockchain&apos;s immutable trust. <br /> We offer comprehensive services including POC development, marketplace creation, and smart contract auditing.
+                        Revolutionize your business with blockchain&apos;s immutable trust. <br /> 
+                        We provide a complete range of services, including POC development, marketplace creation, and smart contract auditing.
                         </p>
                     </div>
 

@@ -44,7 +44,7 @@ const Why = () => {
                                     <div className="rounded-full h-10 w-12 flex items-center justify-center bg-circlebg">
                                         <Image src="/assets/why/check.svg" alt="check-image" width={24} height={24} />
                                     </div>
-                                    <div className="ml-5">
+                                    <div className="ml-5 ">
                                         <h4 className="text-2xl font-semibold">{items.heading}</h4>
                                         <h5 className="text-lg text-beach font-normal mt-2">{items.subheading}</h5>
                                     </div>

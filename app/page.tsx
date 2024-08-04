@@ -9,16 +9,19 @@ import Newsletter from './components/Newsletter/Newsletter';
 
 
 export default function Home() {
+  const showAllComponents = false; // toggle this variable to show/hide components
+
   return (
     <main>
       <Banner />
-      {/* <Companies /> */}
-      {/* <Buyers /> */}
+      {showAllComponents && <Companies />}
+      {showAllComponents && <Buyers />}
       <Provide />
       <Why />
-      {/* <Network /> */}
-      {/* <Clientsay /> */}
-      {/* <Newsletter /> */}
+      {showAllComponents && <Network />}
+      {showAllComponents && <Clientsay />}
+      {showAllComponents && <Newsletter />}
     </main>
-  )
+  );
 }
+
