@@ -71,7 +71,7 @@ const footer = () => {
                         </div>
                         <div className="flex gap-2 mt-10">
                             <Image src={'/assets/footer/email.svg'} alt="email-icon" width={24} height={24} />
-                            <h5 className="text-base font-normal text-offwhite">cyfhr@gmail.com</h5>
+                            <h5 className="text-base font-normal text-offwhite">cyfhr.portal@gmail.com</h5>
                         </div>
                     </div>
 
